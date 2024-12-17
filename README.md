@@ -2,6 +2,8 @@
 
 This is a Weather App built with React Native, Redux Toolkit, and TypeScript. It uses Expo to simplify development and deployment. The app displays weather information for different cities and countries, including descriptions and icons for current weather conditions.
 
+<img src="https://github.com/user-attachments/assets/72c7b9c1-749a-4c99-a527-53c418f603fb" alt="Alt Text" width="393" height="852">
+
 ---
 
 ## Features
