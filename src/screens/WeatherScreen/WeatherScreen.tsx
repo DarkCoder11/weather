@@ -30,7 +30,7 @@ export const WeatherScreen = () => {
     } else {
       fetchWeatherByCurrentLocation();
     }
-  }, []);
+  }, [cityName]);
 
   const handleGetWeatherByLocation = useCallback(() => {
     fetchWeatherByCurrentLocation();
