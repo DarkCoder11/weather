@@ -1,0 +1,42 @@
+{
+  "name": "expo-template-redux-typescript",
+  "description": "The Blank project template includes typescript and redux.",
+  "version": "47.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "yarn run eslint --fix && yarn tsc --noEmit"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.6",
+    "axios": "^1.7.9",
+    "expo": "~47.0.0-beta.3",
+    "expo-location": "~15.0.1",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.8",
+    "react-native-web": "~0.18.9",
+    "react-redux": "^8.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@react-native-community/eslint-config": "^3.1.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@types/react-native": "0.70.8",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-universe": "^11.1.0",
+    "prettier": "^2.7.1",
+    "typescript": "^5.7.2"
+  },
+  "resolutions": {
+    "@types/react": "18.2.0"
+  },
+  "private": true
+}
